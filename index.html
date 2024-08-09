@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Welcome to AbishekGrocer</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section id="home">
+            <h2>Fresh Produce Everyday</h2>
+            <p>Your one-stop shop for fresh fruits, vegetables, and groceries.</p>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>AbishekGrocer has been serving the community with the finest grocery products since 1990.</p>
+        </section>
+
+        <section id="products">
+            <h2>Our Products</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="images/apple.jpg" alt="Apples">
+                    <h3>Apples</h3>
+                    <p>Rs180.00 / kg</p>
+                </div>
+                <div class="product-card">
+                    <img src="images/banana.jpg" alt="Bananas">
+                    <h3>Bananas</h3>
+                    <p>Rs140.00 / dozen</p>
+                </div>
+                <div class="product-card">
+                    <img src="images/grapes.jpg" alt="Grapes">
+                    <h3>Grapes</h3>
+                    <p>Rs80 / kg</p>
+                </div>
+                <div class="product-card">
+                    <img src="images/orange.jpg" alt="Orange">
+                    <h3>Orange</h3>
+                    <p>Rs200 / kg</p>
+                </div>
+                <!-- Add more products as needed -->
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 AbishekGrocer. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
